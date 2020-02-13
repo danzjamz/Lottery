@@ -1,0 +1,57 @@
+.app-wrapper {
+    display: grid;
+    grid-template-columns: repeat(100px);
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+}
+
+.greeting, .result-display, .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting, .result-display {
+    font-family: 'Odibee Sans', cursive;
+}
+
+#btn {
+    padding: .5em 2em;
+    font-size: 1.5em;
+}
+
+.user-add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.win-btn, .lose-btn {
+    width: 8em;
+    padding: .5em 1em;
+}
+
+input {
+    margin: 1em;
+    padding: .5em;
+    width: 3em;
+}
+
+p {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 1.5em;
+}
+
+.dice {
+    color: red;
+    font-size: 1.5em;
+}
+
+.clover {
+    color: green;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+}
